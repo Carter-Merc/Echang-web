@@ -1,0 +1,73 @@
+:root {
+  --color-navy: #1E1B54;
+  --color-green: #00703C;
+  --color-green-hover: #00894E;
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-gray-800: #333333;
+  --color-ocean: #2E8BC0;
+  /* New brand tones */
+  --color-green-600: #16A34A; /* welcome tag */
+  --color-purple-600: #4F46E5; /* service icons */
+  --color-navy-800: #1E293B; /* headings/body dark navy */
+  --color-navy-900alt: #1E1B4B; /* CTA background */
+
+  /* Semantic tokens */
+  --bg-page: var(--color-white);
+  --text-body: var(--color-black);
+  --text-muted: var(--color-gray-800);
+  --nav-bg: var(--color-navy);
+  --nav-text: var(--color-white);
+  --button-primary-bg: var(--color-green);
+  --button-primary-hover-bg: var(--color-green-hover);
+  --button-accent-bg: var(--color-navy);
+  --highlight: var(--color-navy);
+
+  /* Section 2 semantics */
+  --welcome-accent: var(--color-green-600);
+  --heading-navy: var(--color-navy-800);
+  --cta-navy: var(--color-navy-900alt);
+  --icon-purple: var(--color-purple-600);
+  --card-bg: #FFFFFF;
+  --card-shadow: 0 8px 24px rgba(0,0,0,0.06);
+}
+
+/* Utility classes */
+.text-highlight {
+  color: var(--highlight);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.btn-primary {
+  background: var(--button-primary-bg);
+  color: var(--color-white);
+}
+
+.btn-primary:hover {
+  background: var(--button-primary-hover-bg);
+}
+
+.btn-accent {
+  background: var(--button-accent-bg);
+  color: var(--color-white);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--highlight);
+  border-color: var(--highlight);
+}
+
+
