@@ -42,7 +42,7 @@ export const ServicesDetailDotted: React.FC = () => {
     order: isMd ? 2 : 1
   }
 
-  const eyebrow: React.CSSProperties = {
+  const eyebrow: React.CSSProperties = { 
     fontSize: isMd ? 14 : 12,
     fontWeight: 600,
     color: '#6B7280', // Light gray

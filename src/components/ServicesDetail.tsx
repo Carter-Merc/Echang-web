@@ -2,7 +2,7 @@ import React from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
 
 export const ServicesDetail: React.FC = () => {
-  const { isMd, isLg } = useBreakpoint()
+  const { isMd } = useBreakpoint()
 
   const section: React.CSSProperties = {
     background: '#F8F9FA', // Light gray/off-white background
