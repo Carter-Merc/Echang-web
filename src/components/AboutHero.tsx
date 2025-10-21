@@ -11,7 +11,7 @@ export const AboutHero: React.FC = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: '#FFFFFF',
-    backgroundImage: 'linear-gradient(rgba(30,27,84,0.45), rgba(30,27,84,0.45)), url(/hero-ocean.jpg)',
+    backgroundImage: 'linear-gradient(rgba(30,27,84,0.45), rgba(30,27,84,0.45)), url(/Echang 9.png)',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
