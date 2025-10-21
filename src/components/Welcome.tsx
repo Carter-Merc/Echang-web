@@ -1,5 +1,6 @@
 import React from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
+import { LazyImage } from './LazyImage'
 
 const services = [
   { title: 'Marine & Offshore Support Services', icon: '🛥️' },
@@ -56,7 +57,7 @@ export const Welcome: React.FC = () => {
             {/* Left: circular image + text */}
             <div>
               <div style={{ width: '100%', aspectRatio: '1/1', borderRadius: '9999px', overflow: 'hidden', boxShadow: '0 10px 24px rgba(0,0,0,0.15)' }}>
-                <img src="/Echang 4.png" alt="Maritime operations" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <LazyImage src="/Echang 4.png" alt="Maritime operations" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
               <blockquote style={{ marginTop: 16, fontStyle: 'italic', color: 'var(--heading-navy)', fontSize: isMd ? 16 : 14 }}>
                 "Quality means doing it right when no one is looking" – Henry Ford.

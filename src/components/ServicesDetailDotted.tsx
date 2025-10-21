@@ -1,5 +1,6 @@
 import React from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
+import { LazyImage } from './LazyImage'
 
 export const ServicesDetailDotted: React.FC = () => {
   const { isMd } = useBreakpoint()
@@ -93,7 +94,7 @@ export const ServicesDetailDotted: React.FC = () => {
         <div style={detailSection}>
           {/* Left Column - Service Image */}
           <div style={imageColumn}>
-            <img
+            <LazyImage
               src="/Echang 15.png"
               alt="Technical management and consultancy services meeting"
               style={serviceImage}

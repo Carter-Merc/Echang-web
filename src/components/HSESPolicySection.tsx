@@ -1,5 +1,6 @@
 import React from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
+import { LazyImage } from './LazyImage'
 
 export const HSESPolicySection: React.FC = () => {
   const { isMd } = useBreakpoint()
@@ -169,7 +170,7 @@ export const HSESPolicySection: React.FC = () => {
 
             {/* Central Illustration */}
             <div style={illustrationContainer}>
-              <img
+              <LazyImage
                 src="/hse icon.png"
                 alt="HSES & CA Policy illustration with interconnected gears"
                 style={illustration}
