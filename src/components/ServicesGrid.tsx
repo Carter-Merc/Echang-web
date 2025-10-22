@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
+import { LazyImage } from './LazyImage'
 
 const COLORS = {
   navy: '#1E293B',
@@ -15,13 +16,13 @@ type Service = {
 }
 
 const SERVICES: Service[] = [
-  { title: 'Technical Management and Consultancy', img: 'https://images.unsplash.com/photo-1454179083322-2ae3ebd93f7e?q=80&w=1600&auto=format&fit=crop', alt: 'Technical management consultancy - industrial controls' },
-  { title: 'Data Management', img: 'https://images.unsplash.com/photo-1518773553398-650c184e0bb3?q=80&w=1600&auto=format&fit=crop', alt: 'Data management - servers and cables' },
-  { title: 'Corporate Training and Consultancy', img: 'https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=1600&auto=format&fit=crop', alt: 'Corporate training - team workshop' },
-  { title: 'Marine and Offshore Support', img: 'https://images.unsplash.com/photo-1557962927-6d7a9a4d1c6f?q=80&w=1600&auto=format&fit=crop', alt: 'Marine and offshore support vessel' },
-  { title: 'Pilotage and Mooring', img: 'https://images.unsplash.com/photo-1544551763-7ef42064ca47?q=80&w=1600&auto=format&fit=crop', alt: 'Pilotage and mooring with ship hull and platform' },
-  { title: 'Marine Logistics', img: 'https://images.unsplash.com/photo-1516239322114-5ceab2acd7c1?q=80&w=1600&auto=format&fit=crop', alt: 'Marine logistics on ship deck' },
-  { title: 'Engineering and Material Supply', img: 'https://images.unsplash.com/photo-1581093588401-16af1cbdc9b0?q=80&w=1600&auto=format&fit=crop', alt: 'Engineering and material supply - safety equipment over ocean' },
+  { title: 'Technical Management and Consultancy', img: '/Echang 15.png', alt: 'Technical management and consultancy services meeting' },
+  { title: 'Data Management', img: '/Echang 13.png', alt: 'Data and measurement services equipment' },
+  { title: 'Corporate Training and Consultancy', img: '/Echang 14.png', alt: 'Corporate training and consultancy session' },
+  { title: 'Marine and Offshore Support', img: '/Echang 6.png', alt: 'Marine and offshore support vessel operations' },
+  { title: 'Pilotage and Mooring', img: '/Echang 9.png', alt: 'Pilotage and mooring operations with floating structure' },
+  { title: 'Marine Logistics', img: '/Echang 10.png', alt: 'Marine logistics and cargo operations' },
+  { title: 'Engineering and Material Supply', img: '/Echang 11.png', alt: 'Engineering and material supply services' },
 ]
 
 export const ServicesGrid: React.FC = () => {
@@ -108,7 +109,7 @@ export const ServicesGrid: React.FC = () => {
                 ;(e.currentTarget as HTMLDivElement).style.boxShadow = '0 8px 24px rgba(0,0,0,0.06)'
               }}
             >
-              <img src={s.img} alt={s.alt} style={imgStyle} />
+              <LazyImage src={s.img} alt={s.alt} style={imgStyle} />
               <div style={body}>
                 <h3 style={titleStyle}>{s.title}</h3>
                 <a href="#" style={link}>

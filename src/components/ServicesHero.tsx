@@ -17,43 +17,43 @@ export const ServicesHero: React.FC = () => {
       title: "Marine and Offshore Support Services",
       subtext: "Marine vessels supply and Operations",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1559027615-5a1c7c7a5f9b?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Technical Management and Consultancy",
       subtext: "Vessel management and Chatering",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Pilotage and Mooring Services",
       subtext: "Pilot and Mooring Operation",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Marine Logistics",
       subtext: "Shipping: Transport Broker & Agency",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Engineering & Material Supply Services",
       subtext: "Supply Installations and Maintanance of Marine Equipments",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Data and Measurement Services",
       subtext: "Record Reconcilliation and Documentation",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     },
     {
       title: "Corporate Training and Consultancy",
       subtext: "Maritime Operations and Technical Awareness",
       buttonText: "Read More",
-      backgroundImage: "url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1920&auto=format&fit=crop')"
+      backgroundImage: "url('/Echang 6.png')"
     }
   ]
 

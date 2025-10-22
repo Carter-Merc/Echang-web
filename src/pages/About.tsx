@@ -60,8 +60,8 @@ const About: React.FC = () => {
               <h2 style={header}>ECHANG INTEGRATED SERVICES LIMITED (EIS)</h2>
               <div style={{ width: '100%', overflow: 'hidden', borderRadius: 16 }}>
                 <img
-                  src={'/the%20earth%203.jpg'}
-                  alt="Maritime scene at sunrise with whale tail"
+                  src={'/Echang 8.png'}
+                  alt="Professional business meeting and consultation"
                   style={{ width: '100%', height: 'auto', display: 'block', objectFit: 'cover' }}
                 />
               </div>

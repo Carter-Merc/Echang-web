@@ -12,8 +12,7 @@ export const TeamBanner: React.FC = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: '#FFFFFF',
-    backgroundImage:
-      "url('https://images.unsplash.com/photo-1581091215367-59ab6dcef4d9?q=80&w=1920&auto=format&fit=crop')",
+    backgroundImage: "url('/Echang 7.png')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
