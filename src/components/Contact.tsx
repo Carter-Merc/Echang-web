@@ -1,5 +1,6 @@
 import React from 'react'
 import { useBreakpoint } from '@/hooks/useBreakpoint'
+import { LazyImage } from './LazyImage'
 
 const COLORS = {
   navy: '#1E1B54',
@@ -89,10 +90,10 @@ export const Contact: React.FC = () => {
         <div style={wrap}>
           <div>
             <div style={imgBox}>
-              <img
+              <LazyImage
                 style={imgStyle}
-                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=1600&auto=format&fit=crop"
-                alt="Professional on the phone in modern office"
+                src="/Echang 8.png"
+                alt="Professional business meeting and consultation"
               />
             </div>
           </div>
