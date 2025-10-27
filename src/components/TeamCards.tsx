@@ -13,20 +13,6 @@ interface TeamMember {
 
 const TEAM_MEMBERS: TeamMember[] = [
   {
-    name: 'Frederick Adefarati',
-    position: 'LEGAL COUNSEL',
-    description: 'Qualified solicitor and advocate of the Supreme Court of Nigeria with extensive legal publications. LLB (Uniben), BL (Nigerian Law School, 2008), and LLM in Oil & Gas Law (Swansea University, UK).',
-    image: '/Frederick Adefarati.png',
-    alt: 'Frederick Adefarati - Professional headshot'
-  },
-  {
-    name: 'Happiness Nwagwu',
-    position: 'TEAM MEMBER',
-    description: 'Professional team member with expertise in maritime operations and client relations.',
-    image: '/Happiness Nwagwu.png',
-    alt: 'Happiness Nwagwu - Professional headshot'
-  },
-  {
     name: 'Mallam Umar Sani',
     position: 'CHAIRMAN',
     description: 'Seasoned in executive management with extensive experience in portfolio management, development finance and revenue generation, asset management, capital markets, supply chain, treasury management, and pension & tax administration in Nigeria.',
@@ -34,18 +20,11 @@ const TEAM_MEMBERS: TeamMember[] = [
     alt: 'Mallam Umar Sani - Professional headshot'
   },
   {
-    name: 'Oluwaseyi Oladunjoye',
-    position: 'HEAD, OPERATIONS',
-    description: 'Mechanical Engineer with over eighteen years in oil & gas as operations, maintenance, reliability, and asset management professional; experienced in rotating equipment maintenance, asset reliability and operations readiness.',
-    image: '/Oluwaseyi Oladunjoye.png',
-    alt: 'Oluwaseyi Oladunjoye - Professional headshot'
-  },
-  {
-    name: 'Salisu Aminu, FIMC, AMNIM',
-    position: 'HUMAN RESOURCES & TRAINING SERVICES',
-    description: 'Certified business development service provider and professional manager with over fifteen years of progressive experience.',
-    image: '/Salisu Aminu, FIMC, AMNIM.png',
-    alt: 'Salisu Aminu, FIMC, AMNIM - Professional headshot'
+    name: 'Victor Aghedo',
+    position: 'GM, MARINE',
+    description: 'Expert with over forty years in the industry. Experience spans maritime and oil & gas operations including tanker mooring, pilotage, rig moving, ship handling, vessel inspections, terminal operations, and crude oil export operations.',
+    image: '/Victor Aghedo.png',
+    alt: 'Victor Aghedo - Professional headshot'
   },
   {
     name: 'Theophilus Urua, MILT',
@@ -55,11 +34,32 @@ const TEAM_MEMBERS: TeamMember[] = [
     alt: 'Theophilus Urua, MILT - Professional headshot'
   },
   {
-    name: 'Victor Aghedo',
-    position: 'GM, MARINE',
-    description: 'Expert with over forty years in the industry. Experience spans maritime and oil & gas operations including tanker mooring, pilotage, rig moving, ship handling, vessel inspections, terminal operations, and crude oil export operations.',
-    image: '/Victor Aghedo.png',
-    alt: 'Victor Aghedo - Professional headshot'
+    name: 'Salisu Aminu, FIMC, AMNIM',
+    position: 'HUMAN RESOURCES & TRAINING SERVICES',
+    description: 'Certified business development service provider and professional manager with over fifteen years of progressive experience.',
+    image: '/Salisu Aminu, FIMC, AMNIM.png',
+    alt: 'Salisu Aminu, FIMC, AMNIM - Professional headshot'
+  },
+  {
+    name: 'Oluwaseyi Oladunjoye',
+    position: 'HEAD, OPERATIONS',
+    description: 'Mechanical Engineer with over eighteen years in oil & gas as operations, maintenance, reliability, and asset management professional; experienced in rotating equipment maintenance, asset reliability and operations readiness.',
+    image: '/Oluwaseyi Oladunjoye.png',
+    alt: 'Oluwaseyi Oladunjoye - Professional headshot'
+  },
+  {
+    name: 'Happiness Nwagwu',
+    position: 'SAFETY & COMPLIANCE',
+    description: 'Safety and compliance specialist with extensive experience in HSE management, regulatory compliance, safety training, and risk assessment in maritime and oil & gas operations.',
+    image: '/Happiness Nwagwu.png',
+    alt: 'Happiness Nwagwu - Professional headshot'
+  },
+  {
+    name: 'Frederick Adefarati',
+    position: 'LEGAL COUNSEL',
+    description: 'Qualified solicitor and advocate of the Supreme Court of Nigeria with extensive legal publications. LLB (Uniben), BL (Nigerian Law School, 2008), and LLM in Oil & Gas Law (Swansea University, UK).',
+    image: '/Frederick Adefarati.png',
+    alt: 'Frederick Adefarati - Professional headshot'
   }
 ]
 

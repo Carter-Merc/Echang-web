@@ -12,6 +12,7 @@ import Values from '@/pages/Values'
 import Services from '@/pages/Services'
 import HSEPolicy from '@/pages/HSEPolicy'
 import Team from '@/pages/Team'
+import ContactPage from '@/pages/Contact'
 
 const Home: React.FC = () => (
   <>
@@ -47,13 +48,14 @@ const App: React.FC = () => {
   const isServices = route === '#/services'
   const isHSEPolicy = route === '#/hse-policy'
   const isTeam = route === '#/team'
+  const isContact = route === '#/contact'
 
   return (
     <div>
       {loading && <LogoLoader />}
       <Navbar />
       <main>
-        {isAbout ? <About /> : isValues ? <Values /> : isServices ? <Services /> : isHSEPolicy ? <HSEPolicy /> : isTeam ? <Team /> : <Home />}
+        {isAbout ? <About /> : isValues ? <Values /> : isServices ? <Services /> : isHSEPolicy ? <HSEPolicy /> : isTeam ? <Team /> : isContact ? <ContactPage /> : <Home />}
       </main>
       <SiteFooter />
     </div>

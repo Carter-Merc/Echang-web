@@ -101,19 +101,21 @@ export const Contact: React.FC = () => {
             <div style={tag}>REACH OUT TO US</div>
             <h2 style={h2}>Get In Touch</h2>
             <p style={p}>We Believe In Collaboration And We Would Love To Hear About Your Project.</p>
-            <button
-              style={btn}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.background = '#17143F'
-                ;(e.currentTarget as HTMLButtonElement).style.boxShadow = '0 8px 20px rgba(23,20,63,0.35)'
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLButtonElement).style.background = COLORS.navy
-                ;(e.currentTarget as HTMLButtonElement).style.boxShadow = '0 6px 16px rgba(30,27,84,0.30)'
-              }}
-            >
-              CONTACT US
-            </button>
+            <a href="#/contact" style={{ textDecoration: 'none' }}>
+              <button
+                style={btn}
+                onMouseEnter={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.background = '#17143F'
+                  ;(e.currentTarget as HTMLButtonElement).style.boxShadow = '0 8px 20px rgba(23,20,63,0.35)'
+                }}
+                onMouseLeave={(e) => {
+                  (e.currentTarget as HTMLButtonElement).style.background = COLORS.navy
+                  ;(e.currentTarget as HTMLButtonElement).style.boxShadow = '0 6px 16px rgba(30,27,84,0.30)'
+                }}
+              >
+                CONTACT US
+              </button>
+            </a>
           </div>
         </div>
       </div>

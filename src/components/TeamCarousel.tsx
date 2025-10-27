@@ -18,64 +18,70 @@ const COLORS = {
 
 const TEAM: Member[] = [
   {
-    name: 'Victor Aghedo',
-    title: 'GM, MARINE',
-    bio: 'Expert with over forty years in the industry. Experience spans maritime and oil & gas operations including tanker mooring, pilotage, rig moving, ship handling, vessel inspections, terminal operations, and crude oil export operations.',
-    photo: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=400&auto=format&fit=crop',
+    name: 'Mallam Umar Sani',
+    title: 'CHAIRMAN',
+    bio: 'Seasoned in executive management with extensive experience in portfolio management, development finance and revenue generation, asset management, capital markets, supply chain, treasury management, and pension & tax administration in Nigeria.',
+    photo: '/Mallam Umar Sani t.png',
   },
   {
     name: 'Monday Udo',
     title: 'MANAGING DIRECTOR',
     bio: 'Maritime professional with over twenty years of experience in the maritime and oil & gas sector: shipping & logistics management, marine and offshore operations, terminal operations, vessel safety management, and crude oil handling and export.',
-    photo: 'https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?q=80&w=400&auto=format&fit=crop',
+    photo: '/Victor Aghedo.png', // Placeholder - need to add Monday Udo.png
   },
   {
-    name: 'Victoria Alanza',
-    title: 'FINANCE & RISK MANAGEMENT',
-    bio: 'Treasury and finance professional covering treasury sales, FX and fixed income markets, risk management, derivatives and structured products, regulatory compliance, financial books, and stakeholder management.',
-    photo: 'https://images.unsplash.com/photo-1544005316-04ce1f3d3fc3?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    name: 'Oluwaseyi Oladunjoye',
-    title: 'HEAD, OPERATIONS',
-    bio: 'Mechanical Engineer with over eighteen years in oil & gas as operations, maintenance, reliability, and asset management professional; experienced in rotating equipment maintenance, asset reliability and operations readiness.',
-    photo: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    name: 'Umar Sani',
-    title: 'CHAIRMAN',
-    bio: 'Seasoned in executive management with extensive experience in portfolio management, development finance and revenue generation, asset management, capital markets, supply chain, treasury management, and pension & tax administration in Nigeria.',
-    photo: 'https://images.unsplash.com/photo-1603415527035-56978ea1fd3b?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    name: 'Tom FredFish',
-    title: 'HEAD, PUBLIC AFFAIRS & GOVERNMENT RELATIONS',
-    bio: 'Registered member of the Nigerian Union of Journalists (NUJ), brand specialist, public affairs commentator and media consultant to several organizations and personalities.',
-    photo: 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    name: 'Frederick Adefarati',
-    title: 'LEGAL COUNSEL',
-    bio: 'Qualified solicitor and advocate of the Supreme Court of Nigeria with extensive legal publications. LLB (Uniben), BL (Nigerian Law School, 2008), and LLM in Oil & Gas Law (Swansea University, UK).',
-    photo: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=400&auto=format&fit=crop',
+    name: 'Victor Aghedo',
+    title: 'GM, MARINE',
+    bio: 'Expert with over forty years in the industry. Experience spans maritime and oil & gas operations including tanker mooring, pilotage, rig moving, ship handling, vessel inspections, terminal operations, and crude oil export operations.',
+    photo: '/Victor Aghedo.png',
   },
   {
     name: 'Theophilus Urua',
     title: 'CHARTERING MANAGER',
     bio: 'Marine logistics specialist with expertise in supply chain, procurement, vessel chartering and offshore operations; holds a National Diploma in Maritime Studies.',
-    photo: 'https://images.unsplash.com/photo-1603415527035-56978ea1fd3b?q=80&w=400&auto=format&fit=crop',
+    photo: '/Theophilus Urua, MILT.png',
   },
   {
     name: 'Salisu Aminu',
     title: 'HUMAN RESOURCES & TRAINING SERVICES',
     bio: 'Certified business development service provider and professional manager with over fifteen years of progressive experience.',
-    photo: 'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?q=80&w=400&auto=format&fit=crop',
+    photo: '/Salisu Aminu, FIMC, AMNIM.png',
+  },
+  {
+    name: 'Victoria Alanza',
+    title: 'FINANCE & RISK MANAGEMENT',
+    bio: 'Treasury and finance professional covering treasury sales, FX and fixed income markets, risk management, derivatives and structured products, regulatory compliance, financial books, and stakeholder management.',
+    photo: '/Happiness Nwagwu.png', // Placeholder - need to add Victoria Alanza.png
+  },
+  {
+    name: 'Oluwaseyi Oladunjoye',
+    title: 'HEAD, OPERATIONS',
+    bio: 'Mechanical Engineer with over eighteen years in oil & gas as operations, maintenance, reliability, and asset management professional; experienced in rotating equipment maintenance, asset reliability and operations readiness.',
+    photo: '/Oluwaseyi Oladunjoye.png',
+  },
+  {
+    name: 'Happiness Nwagwu',
+    title: 'SAFETY & COMPLIANCE',
+    bio: 'Safety and compliance specialist with extensive experience in HSE management, regulatory compliance, safety training, and risk assessment in maritime and oil & gas operations.',
+    photo: '/Happiness Nwagwu.png',
+  },
+  {
+    name: 'Tom FredFish',
+    title: 'HEAD, PUBLIC AFFAIRS & GOVERNMENT RELATIONS',
+    bio: 'Registered member of the Nigerian Union of Journalists (NUJ), brand specialist, public affairs commentator and media consultant to several organizations and personalities.',
+    photo: '/Frederick Adefarati.png', // Placeholder - need to add Tom FredFish.png
+  },
+  {
+    name: 'Frederick Adefarati',
+    title: 'LEGAL COUNSEL',
+    bio: 'Qualified solicitor and advocate of the Supreme Court of Nigeria with extensive legal publications. LLB (Uniben), BL (Nigerian Law School, 2008), and LLM in Oil & Gas Law (Swansea University, UK).',
+    photo: '/Frederick Adefarati.png',
   },
   {
     name: 'Ide Owodiong-Idemeko',
-    title: 'Non Executive Director',
+    title: 'NON EXECUTIVE DIRECTOR',
     bio: 'Is a seasoned expert in the human resources value chain, project management, security management, external corporate relations, with over 38 years of experience in business leadership and management. He is a community developer with his contributions to society widely recognized with several awards.',
-    photo: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop',
+    photo: '/Oluwaseyi Oladunjoye.png', // Placeholder - need to add Ide Owodiong-Idemeko.png
   }
   
 ]

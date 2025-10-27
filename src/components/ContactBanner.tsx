@@ -58,13 +58,15 @@ export const ContactBanner: React.FC = () => {
       <div style={overlay} />
       <div style={container}>
         <h2 style={heading}>We Believe In Collaboration And We Would Love To Hear About Your Project</h2>
-        <button
-          style={btn}
-          onMouseEnter={(e) => ((e.currentTarget.style.background = '#17143F'))}
-          onMouseLeave={(e) => ((e.currentTarget.style.background = '#1E1B54'))}
-        >
-          CONTACT US
-        </button>
+        <a href="#/contact" style={{ textDecoration: 'none' }}>
+          <button
+            style={btn}
+            onMouseEnter={(e) => ((e.currentTarget.style.background = '#17143F'))}
+            onMouseLeave={(e) => ((e.currentTarget.style.background = '#1E1B54'))}
+          >
+            CONTACT US
+          </button>
+        </a>
       </div>
     </section>
   )

@@ -40,7 +40,9 @@ export const Navbar: React.FC = () => {
             {links.map((item) => (
               <a key={item.label} href={item.href} style={{ color: '#333333', fontWeight: 600, textDecoration: 'none' }}>{item.label}</a>
             ))}
-            <button className="btn btn-accent" style={{ borderRadius: 8, background: 'var(--color-navy)' }}>Contact Us</button>
+            <a href="#/contact" style={{ textDecoration: 'none' }}>
+              <button className="btn btn-accent" style={{ borderRadius: 8, background: 'var(--color-navy)', color: '#FFFFFF', border: '1px solid transparent', padding: '8px 16px', fontWeight: 600, cursor: 'pointer' }}>Contact Us</button>
+            </a>
           </nav>
         )}
       </div>
@@ -55,7 +57,9 @@ export const Navbar: React.FC = () => {
               {links.map((item) => (
                 <a key={item.label} href={item.href} onClick={() => setOpen(false)} style={{ color: '#333333', fontWeight: 600, textDecoration: 'none' }}>{item.label}</a>
               ))}
-              <button className="btn btn-accent" onClick={() => setOpen(false)} style={{ borderRadius: 8, background: 'var(--color-navy)' }}>Contact Us</button>
+              <a href="#/contact" style={{ textDecoration: 'none' }}>
+                <button onClick={() => setOpen(false)} className="btn btn-accent" style={{ borderRadius: 8, background: 'var(--color-navy)', color: '#FFFFFF', border: '1px solid transparent', padding: '8px 16px', fontWeight: 600, cursor: 'pointer' }}>Contact Us</button>
+              </a>
             </nav>
           </div>
         </div>

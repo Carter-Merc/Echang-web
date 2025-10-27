@@ -16,7 +16,7 @@ export const ServicesDetailDotted: React.FC = () => {
     padding: '0 16px'
   }
 
-  // Bottom Section - Service Details
+  // Bottom Section - Service Details 
   const detailSection: React.CSSProperties = {
     display: 'grid',
     gridTemplateColumns: isMd ? '1fr 1fr' : '1fr',
