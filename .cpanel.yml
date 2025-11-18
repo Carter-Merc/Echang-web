@@ -1,0 +1,22 @@
+---
+# cPanel Deployment Configuration
+# Define the deployment process
+
+version: 1.0
+
+# Deployment commands
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - npm install
+    - npm run build
+    - cp -r dist/* /home/echangco/public_html
+
+# Specify the branch to deploy
+branch: main
+
+# Specify the directory to deploy from
+source: /home/echangco/repositories/Echang-web
+
+# Specify the deployment destination
+destination: /home/echangco/public_html
