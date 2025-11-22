@@ -30,7 +30,7 @@ export const Navbar: React.FC = () => {
     <header style={headerStyle}>
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '20px 0' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <img src="/echang_log3.png" alt="Echang" style={{ height: 40 }} />
+          <img src="/echang_log3.jpg" alt="Echang" style={{ height: 40 }} />
         </div>
         {!isMd && (
           <button aria-label="Toggle menu" onClick={() => setOpen((v) => !v)} style={{ background: 'transparent', border: 'none', fontSize: 22, cursor: 'pointer', color: '#333333' }}>☰</button>

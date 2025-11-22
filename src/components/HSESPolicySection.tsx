@@ -171,7 +171,7 @@ export const HSESPolicySection: React.FC = () => {
             {/* Central Illustration */}
             <div style={illustrationContainer}>
               <LazyImage
-                src="/hse icon.png"
+                src="/hse icon.jpg"
                 alt="HSES & CA Policy illustration with interconnected gears"
                 style={illustration}
               />

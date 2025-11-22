@@ -92,7 +92,7 @@ export const Contact: React.FC = () => {
             <div style={imgBox}>
               <LazyImage
                 style={imgStyle}
-                src="/Echang 8.png"
+                src="/Echang 8.jpg"
                 alt="Professional business meeting and consultation"
               />
             </div>

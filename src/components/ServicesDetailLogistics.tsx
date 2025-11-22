@@ -95,7 +95,7 @@ export const ServicesDetailLogistics: React.FC = () => {
           {/* Left Column - Service Image */}
           <div style={imageColumn}>
             <LazyImage
-              src="/Echang 10.png"
+              src="/Echang 10.jpg"
               alt="Marine logistics and cargo operations"
               style={serviceImage}
             />

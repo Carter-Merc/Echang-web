@@ -85,22 +85,22 @@ export const VisionMission: React.FC<VisionMissionProps> = ({ dotted = false }) 
         <div style={grid}>
           {/* Vision */}
           <article style={card}>
-            <div style={logoCircle}><img src="/echang_log3.png" alt="EIS logo" style={logo} /></div>
+            <div style={logoCircle}><img src="/echang_log3.jpg" alt="EIS logo" style={logo} /></div>
             <div>
-              <p style={text}>"To be the first-choice partner, delivering most efficient solutions in the Maritime and Oil & Gas industry"</p>
+              <p style={text}><b>To be the first-choice partner, delivering most efficient solutions in the Maritime and Oil & Gas industry</b></p>
               <p style={label}>Our Vision</p>
-              <div style={company}>EIS</div>
+              
             </div>
-            <div style={quote}>”</div>
+            <div style={quote}>"</div>
           </article>
 
         {/* Mission */}
           <article style={card}>
-            <div style={logoCircle}><img src="/echang_log3.png" alt="EIS logo" style={logo} /></div>
+            <div style={logoCircle}><img src="/echang_log3.jpg" alt="EIS logo" style={logo} /></div>
             <div>
-              <p style={text}>"Using human and material resources harnessed in all facets, to carry out an unrivalled operations and services in the maritime and oil & gas industry in a safe and defined culture, as a corporation with the utmost values and integrity."</p>
+              <p style={text}><b>Using human and material resources harnessed in all facets, to carry out an unrivalled operations and services in the maritime and oil & gas industry in a safe and defined culture, as a corporation with the utmost values and integrity.</b></p>
               <p style={label}>Our Mission</p>
-              <div style={company}>EIS</div>
+              
             </div>
             <div style={quote}>”</div>
           </article>

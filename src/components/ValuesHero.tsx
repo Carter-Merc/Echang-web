@@ -45,7 +45,7 @@ export const ValuesHero: React.FC = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: '#FFFFFF',
-    backgroundImage: "url('/Echang 3.png')",
+    backgroundImage: "url('/Echang 3.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     overflow: 'hidden'

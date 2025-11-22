@@ -96,7 +96,7 @@ export const ServicesDetailPilotage: React.FC = () => {
           {/* Left Column - Service Image */}
           <div style={imageColumn}>
             <LazyImage
-              src="/Echang 9.png"
+              src="/Echang 9.jpg"
               alt="Pilotage and mooring operations"
               style={serviceImage}
             />

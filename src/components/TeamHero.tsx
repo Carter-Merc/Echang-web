@@ -30,7 +30,7 @@ export const TeamHero: React.FC = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: '#FFFFFF',
-    backgroundImage: "url('/Echang 7.png')",
+    backgroundImage: "url('/Echang 7.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     overflow: 'hidden',

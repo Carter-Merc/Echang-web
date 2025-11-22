@@ -141,6 +141,47 @@ export const ContactForm: React.FC = () => {
             Send us a message and we'll get back to you as soon as possible.
           </p>
           
+          {/* Address Information */}
+          <div style={{ display: 'grid', gridTemplateColumns: isMd ? '1fr 1fr 1fr' : '1fr', gap: 24, marginBottom: 32, paddingBottom: 32, borderBottom: '1px solid #E5E7EB' }}>
+            <div>
+              <h4 style={{ color: '#1E293B', fontWeight: 700, margin: '0 0 8px' }}>Head Office</h4>
+              <address style={{ color: '#475569', fontStyle: 'normal', fontSize: 14, lineHeight: 1.6 }}>
+                Suite 41, Ikorodu Crescent,<br />
+                Dolphin Estate, Ikoyi,<br />
+                Lagos State, Nigeria
+              </address>
+              <div style={{ marginTop: 12, fontSize: 14 }}>
+                <a href="tel:+2348030583531" style={{ color: '#00703C', textDecoration: 'none', display: 'block' }}>+234803 0583 531</a>
+                <a href="tel:+2347060472367" style={{ color: '#00703C', textDecoration: 'none', display: 'block' }}>+234706 0472 367</a>
+              </div>
+            </div>
+            
+            <div>
+              <h4 style={{ color: '#1E293B', fontWeight: 700, margin: '0 0 8px' }}>Abuja Office</h4>
+              <address style={{ color: '#475569', fontStyle: 'normal', fontSize: 14, lineHeight: 1.6 }}>
+                GF1 AGA Memorial Complex,<br />
+                No. 16 Nkwere Street,<br />
+                Area 11 Garki, Abuja, Nigeria
+              </address>
+              <div style={{ marginTop: 12, fontSize: 14 }}>
+                <a href="tel:+2348036888230" style={{ color: '#00703C', textDecoration: 'none', display: 'block' }}>+234803 6888 230</a>
+                <a href="tel:+2347060472367" style={{ color: '#00703C', textDecoration: 'none', display: 'block' }}>+234706 0472 367</a>
+              </div>
+            </div>
+            
+            <div>
+              <h4 style={{ color: '#1E293B', fontWeight: 700, margin: '0 0 8px' }}>UK Contact</h4>
+              <address style={{ color: '#475569', fontStyle: 'normal', fontSize: 14, lineHeight: 1.6 }}>
+                32 Argyle Road,<br />
+                Southampton, Hampshire,<br />
+                SO14 0BQ, United Kingdom
+              </address>
+              <div style={{ marginTop: 12, fontSize: 14 }}>
+                <a href="tel:+447555733413" style={{ color: '#00703C', textDecoration: 'none', display: 'block' }}>+44 755 573 3413</a>
+              </div>
+            </div>
+          </div>
+          
           <form style={form} onSubmit={handleSubmit}>
             <div style={row}>
               <div style={inputGroup}>

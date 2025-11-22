@@ -51,7 +51,7 @@ export const SiteFooter: React.FC = () => {
             {/* Company */}
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                <img src="/echang_log3.png" alt="Echang" style={{ height: 42 }} />
+                <img src="/echang_log3.jpg" alt="Echang" style={{ height: 42 }} />
               </div>
               <p style={{ color: '#475569', marginTop: 12 }}>Get us involved today. Give us a call or send us a message.</p>
             </div>
@@ -75,39 +75,46 @@ export const SiteFooter: React.FC = () => {
             <div>
               <h4 style={{ margin: '0 0 8px', color: '#1E293B' }}>Head Office</h4>
               <address style={{ color: '#475569', fontStyle: 'normal' }}>
-                Suite 41, Ikorodu Crescent, Dolphin Estate, Ikoyi, Lagos State, Nigeria
+                Suite 41, Ikorodu Crescent, Dolphin Estate<br />
+                Ikoyi, Lagos State, Nigeria
               </address>
               <div style={{ marginTop: 8 }}>
-                <a href="mailto:eisldesk@gmail.com" style={{ color: COLORS.teal, textDecoration: 'none' }}>eisldesk@gmail.com</a><br />
-                <a href="mailto:contact@echang.com.ng" style={{ color: COLORS.teal, textDecoration: 'none' }}>contact@echang.com.ng</a>
+                <a href="mailto:contact@echang.com.ng" style={{ color: COLORS.teal, textDecoration: 'none' }}>contact@echang.com.ng</a><br />
+                <a href="mailto:eisldesk@gmail.com" style={{ color: COLORS.teal, textDecoration: 'none' }}>eisldesk@gmail.com</a>
               </div>
               <div style={{ marginTop: 8, color: '#475569' }}>
-                <a href="tel:+2347060472367" style={{ color: '#475569', textDecoration: 'none' }}>+2347060472367</a><br />
-                <a href="tel:+2348036988230" style={{ color: '#475569', textDecoration: 'none' }}>+2348036988230</a>
+                <a href="tel:+2348030583531" style={{ color: '#475569', textDecoration: 'none' }}>+234803 0583 531</a><br />
+                <a href="tel:+2347060472367" style={{ color: '#475569', textDecoration: 'none' }}>+234706 0472 367</a>
               </div>
             </div>
 
-            {/* Newsletter */}
+            {/* Abuja Office */}
             <div>
-              <h4 style={{ margin: '0 0 8px', color: '#1E293B' }}>Newsletter Subscription</h4>
-              <p style={{ color: '#475569' }}>Subscribe and get updates on the latest in the oil and gas industry</p>
-              <form onSubmit={onSubmit} style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                <input
-                  type="email"
-                  placeholder="Enter Your Email Address..."
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  style={{ flex: '1 1 260px', minWidth: 220, padding: '10px 12px', borderRadius: 8, border: '1px solid ' + '#cbd5e1', background: COLORS.white, color: '#1E293B' }}
-                />
-                <button type="submit" style={{ background: '#059669', color: COLORS.white, padding: '10px 16px', borderRadius: 8, border: '1px solid transparent', cursor: 'pointer' }}
-                  onMouseEnter={(e) => ((e.currentTarget.style.background = '#047857'))}
-                  onMouseLeave={(e) => ((e.currentTarget.style.background = '#059669'))}
-                >
-                  {submitted ? 'SUBSCRIBED' : 'SUBSCRIBE'}
-                </button>
-              </form>
-              {error && <div style={{ color: '#b91c1c', marginTop: 6 }}>{error}</div>}
+              <h4 style={{ margin: '0 0 8px', color: '#1E293B' }}>Abuja Office</h4>
+              <address style={{ color: '#475569', fontStyle: 'normal' }}>
+                GF1 AGA Memorial Complex<br />
+                No. 16 Nkwere Street, Area 11 Garki<br />
+                Abuja, Nigeria
+              </address>
+              <div style={{ marginTop: 8, color: '#475569' }}>
+                <a href="tel:+2348036888230" style={{ color: '#475569', textDecoration: 'none' }}>+234803 6888 230</a><br />
+                <a href="tel:+2347060472367" style={{ color: '#475569', textDecoration: 'none' }}>+234706 0472 367</a>
+              </div>
             </div>
+
+            {/* UK Contact */}
+            <div>
+              <h4 style={{ margin: '0 0 8px', color: '#1E293B' }}>UK Contact</h4>
+              <address style={{ color: '#475569', fontStyle: 'normal' }}>
+                32 Argyle Road, Southampton<br />
+                Hampshire, SO14 0BQ<br />
+                United Kingdom
+              </address>
+              <div style={{ marginTop: 8, color: '#475569' }}>
+                <a href="tel:+447555733413" style={{ color: '#475569', textDecoration: 'none' }}>+44 755 573 3413</a>
+              </div>
+            </div>
+            
           </div>
 
           <div style={{ borderTop: '1px solid rgba(0,0,0,0.08)', marginTop: 24, paddingTop: 12, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 8 }}>

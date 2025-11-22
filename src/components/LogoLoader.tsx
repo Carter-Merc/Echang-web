@@ -21,7 +21,7 @@ export const LogoLoader: React.FC = () => {
         }
         `}
       </style>
-      <img src="/echang_log3.png" alt="Echang logo" style={imgStyle} />
+      <img src="/echang_log3.jpg" alt="Echang logo" style={imgStyle} />
     </div>
   )
 }

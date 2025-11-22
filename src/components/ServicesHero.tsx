@@ -17,43 +17,43 @@ export const ServicesHero: React.FC = () => {
       title: "Marine and Offshore Support Services",
       subtext: "Marine vessels supply and Operations",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Technical Management and Consultancy",
       subtext: "Vessel management and Chatering",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Pilotage and Mooring Services",
       subtext: "Pilot and Mooring Operation",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Marine Logistics",
       subtext: "Shipping: Transport Broker & Agency",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Engineering & Material Supply Services",
       subtext: "Supply Installations and Maintanance of Marine Equipments",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Data and Measurement Services",
       subtext: "Record Reconcilliation and Documentation",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     },
     {
       title: "Corporate Training and Consultancy",
       subtext: "Maritime Operations and Technical Awareness",
       buttonText: "Read More",
-      backgroundImage: "url('/Echang 6.png')"
+      backgroundImage: "url('/Echang 6.jpg')"
     }
   ]
 

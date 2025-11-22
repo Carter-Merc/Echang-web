@@ -16,13 +16,13 @@ type Service = {
 }
 
 const SERVICES: Service[] = [
-  { title: 'Technical Management and Consultancy', img: '/Echang 15.png', alt: 'Technical management and consultancy services meeting' },
-  { title: 'Data Management', img: '/Echang 13.png', alt: 'Data and measurement services equipment' },
-  { title: 'Corporate Training and Consultancy', img: '/Echang 14.png', alt: 'Corporate training and consultancy session' },
-  { title: 'Marine and Offshore Support', img: '/Echang 6.png', alt: 'Marine and offshore support vessel operations' },
-  { title: 'Pilotage and Mooring', img: '/Echang 9.png', alt: 'Pilotage and mooring operations with floating structure' },
-  { title: 'Marine Logistics', img: '/Echang 10.png', alt: 'Marine logistics and cargo operations' },
-  { title: 'Engineering and Material Supply', img: '/Echang 11.png', alt: 'Engineering and material supply services' },
+  { title: 'Technical Management and Consultancy', img: '/Echang 15.jpg', alt: 'Technical management and consultancy services meeting' },
+  { title: 'Data Management', img: '/Echang 13.jpg', alt: 'Data and measurement services equipment' },
+  { title: 'Corporate Training and Consultancy', img: '/Echang 14.jpg', alt: 'Corporate training and consultancy session' },
+  { title: 'Marine and Offshore Support', img: '/Echang 6.jpg', alt: 'Marine and offshore support vessel operations' },
+  { title: 'Pilotage and Mooring', img: '/Echang 9.jpg', alt: 'Pilotage and mooring operations with floating structure' },
+  { title: 'Marine Logistics', img: '/Echang 10.jpg', alt: 'Marine logistics and cargo operations' },
+  { title: 'Engineering and Material Supply', img: '/Echang 11.jpg', alt: 'Engineering and material supply services' },
 ]
 
 export const ServicesGrid: React.FC = () => {

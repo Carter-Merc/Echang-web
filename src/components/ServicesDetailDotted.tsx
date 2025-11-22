@@ -95,7 +95,7 @@ export const ServicesDetailDotted: React.FC = () => {
           {/* Left Column - Service Image */}
           <div style={imageColumn}>
             <LazyImage
-              src="/Echang 15.png"
+              src="/Echang 15.jpg"
               alt="Technical management and consultancy services meeting"
               style={serviceImage}
             />

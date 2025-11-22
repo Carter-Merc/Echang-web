@@ -38,7 +38,7 @@ export const ContactHero: React.FC = () => {
     alignItems: 'center',
     justifyContent: 'center',
     color: '#FFFFFF',
-    backgroundImage: "url('/Echang 8.png')",
+    backgroundImage: "url('/Echang 8.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     overflow: 'hidden'
